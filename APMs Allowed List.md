@@ -1,7 +1,7 @@
 # APMs Allowed List
 
 ```markdown!
-STATUS: V1
+STATUS: V1.5
 ```
 
 ## A – Allowed APMs & Configurations
@@ -26,13 +26,13 @@ Software|Configuration Location|Parameter|Value
 ||Validator Client|[`builder.boostFactor`](https://chainsafe.github.io/lodestar/run/validator-management/vc-configuration#configure-your-builder-selection-andor-builder-boost-factor)|[`100`](https://research.lido.fi/t/lido-node-operator-mev-boost-min-bid-guidance/3347), `maxprofit`
 ||Consensus Client|[`builder.url`](https://chainsafe.github.io/lodestar/run/beacon-management/mev-and-builder-integration#configure-lodestar-setup-for-mev), [`builder.urls`](https://github.com/ChainSafe/lodestar/blob/ac2653dd8b767a24f9b1580977f8f560b1e3352d/packages/cli/src/options/beaconNodeOptions/builder.ts#L38)|[MEV Boost Relay Allowed List](https://etherscan.io/address/0xf95f069f9ad107938f6ba802a3da87892298610e#readContract#F4)
 [Nimbus](https://github.com/status-im/nimbus-eth2)|Validator Client|[`suggested-fee-recipient`](https://nimbus.guide/suggested-fee-recipient.html)|[Execution Layer Rewards Vault](https://docs.lido.fi/deployed-contracts/)
-||Validator Client|[`local-block-value-boost`](https://nimbus.guide/options.html)|[`0`](https://research.lido.fi/t/lido-node-operator-mev-boost-min-bid-guidance/3347)
+||Beacon Node|[`local-block-value-boost`](https://nimbus.guide/options.html)|[`0`](https://research.lido.fi/t/lido-node-operator-mev-boost-min-bid-guidance/3347)
 ||Consensus Client|[`payload-builder-url`](https://nimbus.guide/external-block-builder.html)|[MEV Boost Relay Allowed List](https://etherscan.io/address/0xf95f069f9ad107938f6ba802a3da87892298610e#readContract#F4)
 [Prysm](https://github.com/OffchainLabs/prysm)|Validator Client|[`suggested-fee-recipient`](https://www.offchainlabs.com/prysm/docs/execution-node/fee-recipient/)|[Execution Layer Rewards Vault](https://docs.lido.fi/deployed-contracts/)
 ||Validator Client|[`local-block-value-boost`](https://www.offchainlabs.com/prysm/docs/advanced/builder/#prioritizing-local-blocks)|[`0`](https://research.lido.fi/t/lido-node-operator-mev-boost-min-bid-guidance/3347)
 ||Consensus Client|[`http-mev-relay`](https://www.offchainlabs.com/prysm/docs/advanced/builder/#2-beacon-node-connect-to-the-builder)|[MEV Boost Relay Allowed List](https://etherscan.io/address/0xf95f069f9ad107938f6ba802a3da87892298610e#readContract#F4)
 [Teku](https://github.com/Consensys/teku)|Validator Client|[`validators-proposer-default-fee-recipient`](https://docs.teku.consensys.io/reference/cli#validators-proposer-default-fee-recipient), [`fee_recipient`](https://docs.teku.consensys.io/how-to/configure/use-proposer-config-file)|[Execution Layer Rewards Vault](https://docs.lido.fi/deployed-contracts/)
-||Validator Client|[`builder-bid-compare-factor`](https://docs.teku.consensys.io/reference/cli#builder-bid-compare-factor)|[`100`](https://research.lido.fi/t/lido-node-operator-mev-boost-min-bid-guidance/3347)
+||Beacon Node|[`builder-bid-compare-factor`](https://docs.teku.consensys.io/reference/cli#builder-bid-compare-factor)|[`100`](https://research.lido.fi/t/lido-node-operator-mev-boost-min-bid-guidance/3347)
 ||Consensus Client|[`builder-endpoint`](https://docs.teku.consensys.io/reference/cli#builder-endpoint)|[MEV Boost Relay Allowed List](https://etherscan.io/address/0xf95f069f9ad107938f6ba802a3da87892298610e#readContract#F4)
 [Vero](https://github.com/serenita-org/vero)|Multi-Beacon Node Validator Client|[`fee-recipient`](https://github.com/serenita-org/vero/blob/master/docs/running_vero.md#--fee-recipient)|[Execution Layer Rewards Vault](https://docs.lido.fi/deployed-contracts/)
 ||Multi-Beacon Node Validator Client|[`builder-boost-factor`](https://github.com/serenita-org/vero/blob/master/docs/running_vero.md#--builder-boost-factor)|[`100`](https://research.lido.fi/t/lido-node-operator-mev-boost-min-bid-guidance/3347)
