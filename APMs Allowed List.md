@@ -5,7 +5,7 @@ STATUS: V1.5
 ```
 
 ## A – Allowed APMs & Configurations
-This allow list is the registry of the [Auxiliary Proposer Mechanisms](https://github.com/sssngth/documents-and-policies/blob/BlockProposerRewardsV3/Lido%20Ethereum%20Block%20Proposer%20Rewards%20Policy.md#a4--auxiliary-proposer-mechanisms), implementations, associated parameters and values, that have been assessed and vetted by the community as sufficiently de-risked and demonstrably beneficial to both Lido and the broader Ethereum ecosystem. Maintained by the [APM Committee](https://research.lido.fi/t/establishing-the-apm-committee/9998), this list is regularly revised and updated to adequately reflect the rapidly evolving landscape of software offerings and network conditions.
+This allow list is the registry of the [Auxiliary Proposer Mechanisms](https://github.com/lidofinance/documents-and-policies/blob/main/Lido%20on%20Ethereum%20Standard%20Node%20Operator%20Protocol%20%E2%80%93%20Block%20Proposals.md#a4--auxiliary-proposer-mechanisms), implementations, associated parameters and values, that have been assessed and vetted by the community as sufficiently de-risked and demonstrably beneficial to both Lido and the broader Ethereum ecosystem. Maintained by the [APM Committee](https://research.lido.fi/t/establishing-the-apm-committee/9998), this list is regularly revised and updated to adequately reflect the rapidly evolving landscape of software offerings and network conditions.
 
 ### A.1 – Out-Of-Protocol Proposer-Builder Separation
 
